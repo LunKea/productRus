@@ -61,3 +61,12 @@ header {
 }
 
 /* PRODUCT SINGLE SINGLEVIEW SINGLE_VIEW PRODUKT PRODUCT_CARD PRODUCT CARD */
+
+.single_view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.single_view_product {
+  place-self: center;
+}
