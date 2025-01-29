@@ -7,18 +7,53 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <header>
-    <ul>
-      <li>
-        <a href="index.html">Forside</a>
-      </li>
-      <li>
-        <a href="productlist.html">Produkter</a>
-      </li>
-    </ul>
+    <div>
+      <a href="index.html"><img src="assets/logo.png" alt="" /></a>
+    </div>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <a href="productlist.html">Produkter</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <body>
     <main>
-      <h1>Header</h1>
+      <h1>Product</h1>
+
+      <section class="single_view">
+        <div class="single_view_product>
+          <div>
+            <p id="sold_out">SOLD OUT</p>
+          </div>
+          <div>
+          <img src="assets/tshirt_pladecholder.webp" alt=" t shirt">
+        </div>
+        <div>
+          <p id="discount">50%</p>
+        </div>
+      </div>
+
+      <div class="single_view_info">
+        <div>
+        <h3 class="brand">Mærke</h3>
+        <h4 class="product_name_full"> T-Shirt </h4>
+        <p id="price">100KR</p>
+      </div>
+      <div class="size">
+        <p>Size</p>
+        <div class="dropdown_size"></div>
+      </div>
+      <div class="cart">
+        <p>CART</p>
+      </div>
+
+      </div>
+
+      </section>
     </main>
   </body>
 </html>

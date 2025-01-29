@@ -1,0 +1,63 @@
+/* STYLE STYLING STLES */
+
+/* LAYOUT LAYOUTS */
+
+header {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  place-self: center;
+
+  ul {
+    list-style: none;
+  }
+}
+
+/* INDEX */
+
+.categeories_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.category {
+  border-radius: 10px;
+  background-color: green;
+  p {
+    padding-left: 10px;
+  }
+}
+
+/* CATEGORY CATEGORIES KATOGI KATOGIRIER*/
+
+.productlist_flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  padding-right: 200px;
+  gap: 25px;
+}
+
+.product_card {
+  display: grid;
+  position: relative;
+  width: 200px;
+
+  h2,
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+#sold_out {
+  position: absolute;
+  top: -20px;
+}
+#discount {
+  position: absolute;
+  right: 10px;
+  top: -20px;
+}
+
+/* PRODUCT SINGLE SINGLEVIEW SINGLE_VIEW PRODUKT PRODUCT_CARD PRODUCT CARD */

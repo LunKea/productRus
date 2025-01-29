@@ -7,18 +7,64 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <header>
-    <ul>
-      <li>
-        <a href="index.html">Forside</a>
-      </li>
-      <li>
-        <a href="productlist.html">Produkter</a>
-      </li>
-    </ul>
+    <div>
+      <a href="index.html"><img src="assets/logo.png" alt="" /></a>
+    </div>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <a href="productlist.html">Produkter</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <body>
     <main>
-      <h1>Header</h1>
+      <section class="productlist_flex">
+        <div class="product_card">
+          <a href="product.html" id="product">
+            <img src="assets/tshirt_pladecholder.webp" alt="t shirt"
+          /></a>
+          <h2 id="product_name">T Shirt</h2>
+          <p id="price">100KR</p>
+        </div>
+
+        <div class="product_card">
+          <div>
+            <p id="discount">50%</p>
+          </div>
+          <a href="product.html" id="product">
+            <img src="assets/tshirt_pladecholder.webp" alt="t shirt"
+          /></a>
+          <h2 id="product_name">T Shirt</h2>
+          <p id="price">100KR</p>
+        </div>
+
+        <div class="product_card">
+          <div>
+            <p id="sold_out">SOLD OUT</p>
+          </div>
+          <a href="product.html" id="product">
+            <img src="assets/tshirt_pladecholder.webp" alt="t shirt"
+          /></a>
+          <h2 id="product_name">T Shirt</h2>
+          <p id="price">100KR</p>
+        </div>
+
+        <div class="product_card">
+          <div>
+            <p id="sold_out">SOLD OUT</p>
+            <p id="discount">50%</p>
+          </div>
+          <a href="product.html" id="product">
+            <img src="assets/tshirt_pladecholder.webp" alt="t shirt"
+          /></a>
+          <h2 id="product_name">T Shirt</h2>
+          <p id="price">100KR</p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
