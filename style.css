@@ -12,6 +12,11 @@ header {
   }
 }
 
+.nav_img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* INDEX */
 
 .categeories_grid {
