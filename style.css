@@ -1,10 +1,13 @@
 /* STYLE STYLING STLES */
 
-a{
+a,p,h1,h2{
   text-decoration: none;
-  color: white;
+  color: #A9F800;
 }
 
+body{
+  background-color: black;
+}
 
 /* LAYOUT LAYOUTS */
 
@@ -33,7 +36,7 @@ header {
 
 .category {
   border-radius: 10px;
-  background-color: black;
+  background-color: grey;
   p {
     padding-left: 10px;
   }
@@ -71,7 +74,7 @@ header {
 }
 #discount {
   color: black;
-  background-color: yellow;
+  background-color: #A9F800;
   position: absolute;
   right: 10px;
   top: -20px;
@@ -88,6 +91,9 @@ header {
 }
 
 .single_view_product {
-  object-fit: fill;
-  place-self: center;
+  place-self: center end;
+}
+
+.single_view_info{
+  place-self: center start;
 }
