@@ -1,5 +1,11 @@
 /* STYLE STYLING STLES */
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
 /* LAYOUT LAYOUTS */
 
 header {
@@ -27,7 +33,7 @@ header {
 
 .category {
   border-radius: 10px;
-  background-color: green;
+  background-color: black;
   p {
     padding-left: 10px;
   }
@@ -57,13 +63,19 @@ header {
 }
 
 #sold_out {
+  color: white;
+  background-color: grey;
   position: absolute;
   top: -20px;
+  padding: 5px;
 }
 #discount {
+  color: black;
+  background-color: yellow;
   position: absolute;
   right: 10px;
   top: -20px;
+  padding: 5px;
 }
 
 /* PRODUCT SINGLE SINGLEVIEW SINGLE_VIEW PRODUKT PRODUCT_CARD PRODUCT CARD */
@@ -71,8 +83,11 @@ header {
 .single_view {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 500px;
+  background-color: grey;
 }
 
 .single_view_product {
+  object-fit: fill;
   place-self: center;
 }
