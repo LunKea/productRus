@@ -123,3 +123,7 @@ header {
   place-self: center start;
   padding-left: 20px;
 }
+
+.single_view_info {
+  place-self: center start;
+}
