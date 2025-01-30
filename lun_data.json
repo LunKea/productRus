@@ -1,0 +1,16 @@
+{
+  "navne": {
+    "fornavn": "Mark Anthony",
+    "efternavn": "Aquino",
+    "kældenavn": "Lun"
+  },
+  "alder": 23,
+  "studerende": true,
+  "interesser": ["Musik", "Fashion", "Gym"],
+  "KEA": {
+    "semester": "2",
+    "klasse": "MMD B"
+  },
+  "fødselsdag": "11-07-2001",
+  "stjernetegn": "Krebs"
+}

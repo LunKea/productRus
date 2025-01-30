@@ -1,0 +1,80 @@
+{
+  "studerende": [
+    {
+      "navne": {
+        "fornavn": "Celina",
+        "efternavn": "Piilgaard"
+      },
+
+      "alder": 21,
+      "erfaring": [
+        "SoMe Manager EjendomsmæglerKompagniet",
+        " SoMe Manager Simplybranddesign"
+      ],
+      "studerende": true,
+      "email": "celinapiilgaard@gmail.com",
+
+      "adresse": {
+        "vej": "Ålborggade",
+        "by": "København Ø",
+        "postnummer": 2100
+      }
+    },
+
+    {
+      "navne": {
+        "fornavn": "Lea",
+        "efternavn": "Nørager"
+      },
+      "alder": 22,
+      "studerende": true,
+      "interesser": ["Design", "Medier", "Rejser"],
+      "adresse": {
+        "vej": "Linus Paulings Vej 26",
+        "by": "København SV",
+        "postnummer": "2450"
+      },
+      "fødselsdato": "11/03-2002"
+    },
+
+    {
+      "navn": {
+        "fornavn": "Emma",
+        "efternavn": "Eriksen"
+      },
+
+      "alder": 22,
+      "studerende": true,
+      "interesser": ["Kunst", "Læsning", "rejser"],
+      "adresse": {
+        "vej": "Brofogedvej 2",
+        "by": "København NV",
+        "postnummer": 2400
+      },
+      "kontakt": {
+        "E-mail": "Emmag2002live.dk",
+        "Telefon": "29238126",
+        "facebook": "Emma Gundorf Eriksen",
+        "instagram": "EmmaGundorf"
+      },
+
+      "fødselsdato": "2002-02-21"
+    },
+
+    {
+      "navne": {
+        "fornavn": "Mark Anthony",
+        "efternavn": "Aquino",
+        "kældenavn": "Lun"
+      },
+      "alder": 23,
+      "studerende": true,
+      "interesser": ["Musik", "Fashion", "Gym"],
+      "KEA": {
+        "semester": "2",
+        "klasse": "MMD B"
+      },
+      "fødselsdag": "11-07-2001"
+    }
+  ]
+}
