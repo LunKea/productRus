@@ -19,7 +19,7 @@ h4 {
 }
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 /* LAYOUT LAYOUTS */
@@ -49,7 +49,7 @@ header {
 
 .category {
   border-radius: 10px;
-  background-color: grey;
+  background-color: black;
   p {
     padding-left: 10px;
     place-self: center;
@@ -107,7 +107,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 500px;
-  background-color: white;
+  background-color: black;
 }
 
 .single_view_product {
@@ -116,7 +116,7 @@ header {
     height: 100%;
     width: auto;
     object-fit: fill;
-    max-height: 484px;
+    max-height: 400px;
   }
 }
 
