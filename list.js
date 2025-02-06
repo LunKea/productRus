@@ -6,7 +6,7 @@ document.querySelector("h2").textContent = myCategori;
 
 const listContainer = document.querySelector(".productlist_grid");
 
-fetch(`https://kea-alt-del.dk/t7/api/products?category=${myCategori}`)
+fetch(`https://kea-alt-del.dk/t7/api/products?category=${myCategori}&limit=12`)
   .then((Response) => Response.json())
   .then((data) => showList(data));
 

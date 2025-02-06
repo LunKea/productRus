@@ -1,0 +1,280 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*************** Reset *********************/
+
+body {
+  margin: auto;
+  /* padding: 0vw 5vw 5vw 5vw; */
+  background-color: rgb(245, 245, 245);
+}
+
+container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+h1 {
+  font-size: 2cqw;
+  padding-bottom: 2vw;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 3cqw;
+  font-family: Arial, Helvetica, sans-serif;
+  place-self: center;
+  color: rgb(6, 6, 143);
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER NAV */
+
+header {
+  display: inline;
+
+  li {
+    list-style: none;
+    place-self: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a :hover {
+    color: white;
+  }
+
+  h1 {
+    color: black;
+    font-size: 4cqw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-bottom: 3vw;
+  }
+}
+
+nav {
+  background-color: orange;
+}
+
+/* CATEGORIES */
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  padding: 2vw 0vw;
+}
+
+.categories a {
+  padding: 3vw;
+  background-color: rgb(255, 255, 255);
+  /* border-radius: 5%; */
+
+  text-align: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.categories a :hover {
+  scale: 1.04;
+}
+
+img {
+  padding-top: 0.5rem;
+}
+
+/* PRODUCTLIST */
+
+.productlist_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.productlist_subgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: gainsboro;
+  img {
+    margin-top: -10px;
+  }
+}
+
+.productlist_subgrid a,
+h3 {
+  grid-column: 1 / span 2;
+}
+
+.productlist_subgrid a {
+  padding-bottom: 1rem;
+}
+
+.productlist_subgrid a:hover {
+  scale: 1.04;
+}
+
+.productlist_subgrid p:first-of-type {
+  color: grey;
+  padding-bottom: 1rem;
+  grid-column: 1 / span 2;
+}
+
+.productlist_subgrid p:last-of-type {
+  font-weight: 800;
+  grid-column: 1 / span 1;
+  grid-row: 4;
+}
+
+.sale {
+  text-align: right;
+  margin-right: 1rem;
+  grid-row: 4;
+  grid-column: 2 / span 1;
+
+  color: red;
+  font-weight: 800;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+.productlist_subgrid div.soldOut::before {
+  content: "Sold Out";
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 1rem;
+}
+
+.productlist_subgrid div.sold_out .sold_out {
+  font-size: x-large;
+  padding-left: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.prev {
+  text-decoration: line-through;
+}
+
+.now {
+  margin-right: 1rem;
+  grid-row: 4;
+  grid-column: 2 / span 1;
+
+  color: red;
+  font-weight: 800;
+}
+
+/* SINGLE PRODUCT SINGLE CARD */
+
+.product_grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+
+.product_grid img {
+  width: 38vw;
+  height: 100%;
+}
+
+.product_info {
+  margin-top: 5vw;
+}
+
+.product_info h1 {
+  font-size: 3.5cqw;
+}
+
+.product_info h4 {
+  font-size: 2cqw;
+  color: rgb(197, 197, 197);
+  margin-top: -1.5rem;
+  margin-bottom: 5rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.product_info h3 {
+  font-size: 1.5cqw;
+  place-self: start;
+}
+
+.product_info button {
+  padding: 1.5vw;
+  margin-top: 20vw;
+  font-size: 2cqw;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(197, 197, 197);
+}
+
+.product_info button:hover {
+  background-color: rgb(7, 7, 167);
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.product_info button:focus-within {
+  background-color: rgb(7, 7, 167);
+  color: aliceblue;
+}
+
+.size {
+  display: flex;
+  margin-bottom: 5vw;
+  gap: 2rem;
+  margin-top: -1vw;
+}
+
+.size button {
+  font-size: 2.5cqw;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  padding: 0vw;
+}
+
+.size button:hover {
+  color: rgb(7, 7, 167);
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.size button:focus {
+  color: rgb(7, 7, 167);
+  background-color: rgb(245, 245, 245);
+  font-weight: 600;
+}
